@@ -1,0 +1,6 @@
+id: ExistTitle
+key: ExistTitle
+name: ExistTitle
+
+callbacks:
+  MT::App::CMS::cms_pre_save.entry: $ExistTitle::ExistTitle::Callbacks::_cb_entry
